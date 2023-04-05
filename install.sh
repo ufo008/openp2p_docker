@@ -1,9 +1,6 @@
 #!/bin/bash
 strToken=11118800022288831035
 
-service ssh start
-service nginx start
-
 usage()
 {
 	cat << EOT
