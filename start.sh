@@ -10,4 +10,17 @@ service nginx start
 #ngrok tcp 222 --log=stdout > ngrok.log
 
 echo "启动nginx成功"
-tail -f /var/log/nginx/access.log
+
+apt-get update
+echo "更新成功"
+
+apt-get install net-tools
+echo "安装net-tools成功"
+
+apt-get install tinyproxy -y
+echo "安装tinyproxy成功"
+
+service tinyproxy start
+echo "启动tinyproxy成功"
+
+tail -f /var/log/tinyproxy/tinyproxy.log
