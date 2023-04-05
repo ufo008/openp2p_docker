@@ -1,5 +1,5 @@
-#!/bin/sh
-strToken=
+#!/bin/bash
+strToken=11118800022288831035
 
 usage()
 {
@@ -16,7 +16,7 @@ EOT
 while [ $# -gt 0 ]; do
 	case "$1" in
 		--token )
-			strToken=$2
+			strToken=11118800022288831035
 			shift 2
 			;;
 		--help )

@@ -5,4 +5,4 @@ COPY . /app
 RUN chmod +x /app/start.sh
 RUN chmod +x /app/install.sh
 CMD ["/app/start.sh"]
-CMD ["/app/install.sh --token 11118800022288831035"]
+CMD ["/app/install.sh"]
