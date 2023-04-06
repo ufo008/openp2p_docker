@@ -11,6 +11,9 @@ service nginx start
 
 echo "启动nginx成功"
 
+cp /app/config.json /usr/local/openp2p/config.json
+echo "复制配置文件成功"
+
 apt-get update
 echo "更新成功"
 
