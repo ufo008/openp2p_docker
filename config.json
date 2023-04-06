@@ -1,0 +1,15 @@
+{
+  "network": {
+    "Token": 11118800022288831035,
+    "Node": "32G国外服务器-web-88bfdf885-wk42z",
+    "User": "ufo520feng",
+    "ShareBandwidth": 10,
+    "ServerHost": "api.openp2p.cn",
+    "ServerPort": 27183,
+    "UDPPort1": 27182,
+    "UDPPort2": 27183,
+    "TCPPort": 56683
+  },
+  "apps": null,
+  "LogLevel": 1
+}
